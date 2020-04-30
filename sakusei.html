@@ -6,48 +6,108 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <tittle>ポートフォリオ作成</tittle>
 <style type="text/css">
-div{color: white;
-    background-color: #000;
+h1.name{color: white;
+        background-color: #000;
+        left: 100px;
+        width: 600px;
+        height: 300px;
+        font-size: 70pt;
+        margin: 30px;
     }
-h2.Pro1 {color: white;
-        background-color: #000;
-
-}
-h3.PR1 {color: white;
-        background-color: #000;
-}
-h4.fea1 {color: white;
-         background-color: #000;
-}
-h5.add1 {
+    div.umi{
+        background-image: url('name1.png');
+         right: 0px;
+         width: 10px;
+         height: auto;
+    }
+nav {
     color: white;
     background-color: #000;
+    font-size: 40pt;
+    position: absolute;
+    top: 380px;
+    scroll-behavior: smooth;
 }
-h6.Pro2 {color: white;
-         background-color: #000;
-}
-ul.Pro3 {color:red;
-}
-P#PR2 {color: white;
+h6#Pro2 {color: white;
         background-color: #000;
+         font-size: 70px;
+         position: absolute;
+        top: 420px;
+        width: 240px;
+        height: 150px;
+        padding: 60px;
+        z-index: 2s;
+        transition: .4s; 
 }
-P#PR3 {color: red;
+ul#Pro3 {
+    color: red;
+    background-color: transparent;
+    font-size: 16pt;
+    position: absolute;
+    right: 100px;
+    top: 500px;
+    padding: 60px;
+    width: 320px;
+    min-height: 150px;
 }
-P#fea2 { color: white;
-         background-color: #000;
+
+p#PR2 {
+    color: white;
+    background-color: #000;
+    font-size: 70pt;
+    position: absolute;
+    right: 10px;
+    padding: 60px;
+    width: 420px;
+    min-height: 150px;
+    top:820px     
 }
-ul#fea3 { color: red;
+P#PR3 {
+    color: red;
+    font-size: 20pt;
+    position: absolute;
+    left: 0px;
+    right: 10px;
+    top: 850px;
+    padding: 60px;
+    width: 420px;
+    min-height: 150px;
+} 
+P#fea2 {
+    color: white;
+    background-color: #000;
+    font-size: 60pt;
+    position: absolute;
+    padding: 40px;
+    width: 300px;
+    min-height: 140px;
+    top:1200px }
+ul#fea3 {
+    color: red;
+    font-size: 30pt;
+    position: absolute;
+    right: 0px;
+    padding: 40px;
+    width: 300px;
+    min-height: 140px;
+    top:1200px
 }
-P#add2 {  color: white;
-          background-color: #000;
+P#add2 {
+    color: white;
+    background-color: #000;
+    font-size: 30pt;
+    position: absolute;
+    top: 1800px;
 }
+
+
 </style>
 </head>
 <body>
-<div><h1>HAZUKI NINOMIYA</h1></div>
-<h2 class="Pro1">Profile</h2> <h3 class="PR1">PR</h3> <h4 class="fea1">Feature image</h4> <h5 class="add1">address</h5>
-<h6 class="Pro2">Profile</h6>
-<ul class="Pro3">
+<h1 class="name">HAZUKI NINOMIYA</h1> <div class="umi"></div>
+<nav><a href="#Pro2"> Profile</a> <a href="#PR2">PR</a> <a href="#fea2">Feature image</a> <a href="#add2">address</a> </nav> 
+<h6 id="Pro2">Profile</h6> 
+<ul id="Pro3">
   <li>名前： 二宮 覇月</li>
   <li>出身地: 埼玉県</li>
   <li>生年月日：11月14日</li>
@@ -63,5 +123,9 @@ P#add2 {  color: white;
     <li>6年後：ネットワークの設計に携わっている</li>
 </ul>
 <P id="add2">address: 東京都千代田区神田錦町3-18 寿ビル 7F</P>
+<script>
+'use strict';
+
+</script>
 </body> 
 </html>
